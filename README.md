@@ -1,17 +1,18 @@
-# Python To-Do List
+Python To-Do List
 
-A simple command-line To-Do List application built using Python. This project allows users to create, manage, update, and delete tasks through a menu-driven interface.
+A command-line To-Do List application built with Python. This project allows users to manage tasks and store them permanently using file handling.
 
-## Features
+Features
 
-- Add new tasks
-- View all tasks
-- Mark tasks as completed
-- Update existing tasks
-- Delete tasks
-- Exit the application
+- Add Task
+- View Tasks
+- Mark Task as Completed
+- Update Tasks
+- Delete Tasks
+- Persistent File Storage
+- Exit Program
 
-## Task Information
+Task Information
 
 Each task contains:
 
@@ -20,60 +21,60 @@ Each task contains:
 - Additional Information
 - Status (Pending / Completed)
 
-## Concepts Used
+Concepts Used
 
-This project was built to practice the following Python concepts:
+This project was built to practice:
 
 - Variables
-- Lists
-- Dictionaries
 - User Input
-- Conditional Statements (if, elif, else)
-- Loops (while, for)
-- CRUD Operations (Create, Read, Update, Delete)
+- Conditional Statements
+- Loops
+- File Handling
+- Reading Files
+- Writing Files
+- Updating File Contents
+- CRUD Operations
 
-## How It Works
+How It Works
 
-### Add Task
-Users can create a new task by entering:
+Add Task:
+Users can add a new task by entering:
 - Task name
 - Deadline
 - Additional information
 
-The task is automatically assigned a status of Pending.
+The task is automatically assigned a status of Pending and saved to a text file.
 
-### View Tasks
-Displays all tasks along with:
+View Tasks:
+Displays all tasks stored in the file.
+
+Mark Task Completed:
+Updates the status of a selected task from Pending to Completed.
+
+Update Task:
+Allows users to modify:
 - Task name
 - Deadline
 - Information
 - Status
 
-### Mark Task Completed
-Allows users to change the status of a task from Pending to Completed.
+Delete Task:
+Removes a task from the file permanently.
 
-### Update Task
-Users can modify:
-- Task name
-- Deadline
-- Information
-- Status
-
-### Delete Task
-Removes a task from the list.
-
-### Exit
+Exit:
 Closes the application.
 
-## Example Menu
+File Storage:
 
-text 1. Add Task 2. View Task 3. Mark Task Completed 4. Update Your Task 5. Delete Task 6. Exit 
+Tasks are stored in a text file (task.txt).
 
-## Example Task
+Unlike the previous version, tasks remain saved even after the program is closed and reopened.
 
-text Task Name : Complete Python Project Deadline  : 10-08-2025 Info      : Upload project to GitHub Status    : Pending 
+Example Menu:
 
-## How to Run
+text 1. Add Task 2. View Task 3. Mark Task Completed 4. Update Task 5. Delete Task 6. Exit 
+
+How to Run:
 
 1. Install Python 3.
 2. Download or clone this repository.
@@ -82,17 +83,16 @@ text Task Name : Complete Python Project Deadline  : 10-08-2025 Info      : Uplo
 
 bash python todo_list.py 
 
-## Future Improvements
+Future Improvements:
 
-- Save tasks to a file
-- Load tasks automatically when the program starts
-- Add task priorities
-- Add task categories
-- Add due-date reminders
-- Create a graphical user interface (GUI)
+- Functions for cleaner code
+- Exception handling
+- Task priorities
+- Task categories
+- Search tasks
+- Graphical User Interface (GUI)
 
-## Author
-
+Author
 Manoj M
 
-Built as a Python learning project to practice data structures and CRUD operations.
+Built as a Python learning project to practice file handling and CRUD operations.
